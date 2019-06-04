@@ -1,0 +1,28 @@
+{
+  "name": "rtransaction",
+  "version": "1.0.0",
+  "description": "Simple transaction engine for node.js with optional retries and rollback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illarion/rtransaction.git"
+  },
+  "keywords": [
+    "transactions",
+    "multisteps",
+    "rollback",
+    "retries"
+  ],
+  "author": "Illarion Kovalchuk <illarion.kovalchuk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/illarion/rtransaction/issues"
+  },
+  "homepage": "https://github.com/illarion/rtransaction#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
